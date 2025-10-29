@@ -3,7 +3,7 @@ import { useMemo } from "react";
 import Header from "./components/Header";
 import AddExpenseForm from "./components/AddExpenseForm";
 import CategoryFilter from "./components/CategoryFilter";
-// import ExpenseItem from "./components/ExpenseItem";
+import ExpenseStats from "./components/ExpenseStats";
 import ExpenseList from "./components/ExpenseList";
 import './App.css'
 
@@ -141,18 +141,17 @@ function App() {
 
   return (
     <div className="app-container">
-      {/* GlobalStyles component is removed, CSS is imported */}
       
       <Header currentDate={currentDate} />
       
       <main className="main-layout">
         
         <div className="main-content">
-          {/* <ExpenseStats 
+          <ExpenseStats 
             stats={stats} 
             formatCurrencyNaira={formatCurrencyNaira}
             categoryChartColors={categoryChartColors}
-          /> */}
+          />
           <CategoryFilter
             currentFilter={currentFilter}
             onSetFilter={handleSetFilter}

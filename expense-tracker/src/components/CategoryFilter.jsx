@@ -1,4 +1,5 @@
-import CATEGORIES from "./AddExpenseForm";
+// import CATEGORIES from "./AddExpenseForm";
+import AddExpenseForm from "./AddExpenseForm";
 
 function CategoryFilter({ Category, currentFilter, onSetfilter}) {
     return (
