@@ -16,7 +16,7 @@ A clean, modern, and responsive React application designed to help you track you
 
 - Highest single expense
 
-**Spending Breakdown:** A dynamic pie chart from recharts visualizes your spending distribution across different categories.
+<!-- **Spending Breakdown:** A dynamic pie chart from recharts visualizes your spending distribution across different categories. -->
 
 **Category Filtering:** Filter your expense list by "All", "Food", "Transport", "Bills", "Entertainment", or "Others". The statistics dashboard updates automatically based on your filter.
 
@@ -42,7 +42,7 @@ The application is organized into logical, reusable components:
 
 **CategoryFilter.jsx:** A component that maps over the CATEGORIES constant to render filter buttons.
 
-**ExpenseStats.jsx:** Displays the key statistics (Total, Count, Highest) and the recharts Pie Chart. All data is passed in as props.
+**ExpenseStats.jsx:** Displays the key statistics (Total, Count, Highest). All data is passed in as props.
 
 **ExpenseList.jsx:** Renders the list of expenses by mapping over the filtered expenses array.
 
@@ -52,7 +52,7 @@ The application is organized into logical, reusable components:
 
 - Edit Mode: Displays inputs to edit the description and amount, with its own local state to manage the edits.
 
-**ExpenseTracker.css:** A single, comprehensive stylesheet that contains all CSS rules for the entire application.
+**App.css:** A single, comprehensive stylesheet that contains all CSS rules for the entire application.
 
 ## Output
 ![alt text](<Screenshot 2025-10-29 234854.png>)
