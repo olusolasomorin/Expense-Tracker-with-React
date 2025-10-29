@@ -1,4 +1,4 @@
-# Naira Expense Tracker
+# 🎯 Naira Expense Tracker
 
 A clean, modern, and responsive React application designed to help you track your daily expenses. This app allows you to add, edit, delete, and filter expenses, all while visualizing your spending habits with a simple and clear dashboard. All currency is formatted for Nigerian Naira (₦).
 
