@@ -8,11 +8,11 @@ import ExpenseList from "./components/ExpenseList";
 import './App.css'
 
 const categoryChartColors = {
-  Food: "#F87171", // red-500
-  Transport: "#60A5FA", // blue-500
-  Bills: "#FBBF24", // yellow-500
-  Entertainment: "#A78BFA", // purple-500
-  Others: "#9CA3AF", // gray-400
+  Food: "#F87171",
+  Transport: "#60A5FA", 
+  Bills: "#FBBF24",
+  Entertainment: "#A78BFA", 
+  Others: "#9CA3AF", 
 };
 
 // Sample Data
@@ -27,14 +27,14 @@ const sampleExpenses = [
   {
     id: 2,
     description: "BRT bus fare",
-    amount: 500,
+    amount: 5000,
     category: "Transport",
     date: "2025-10-23"
   },
   {
     id: 3,
     description: "MTN Data subscription",
-    amount: 3000,
+    amount: 30000,
     category: "Bills",
     date: "2025-10-22"
   },
